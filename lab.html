@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F7F2;
+            color: #333333;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1B4332;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        nav a:hover {
+            color: #B7E4C7;
+        }
+
+        main {
+            margin: 30px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #1B4332;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        li {
+            margin: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #95B89E;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2D6A4F;
+            color: white;
+        }
+
+        article {
+            background-color: #EAF4EC;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        input, textarea {
+            width: 95%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        button {
+            background-color: #2D6A4F;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1B4332;
+        }
+
+        footer {
+            background-color: #1B4332;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="home">
+        <h1>My Personal Portfolio</h1>
+        <p>Hi! I'm Wylle Bunayog, an aspiring IT professional.</p>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#education">Education</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="formal pic.jpg" alt="Profile photo" width="150">
+            <p>Hello! I am Wylle Bunayog, an aspiring IT professional. I am passionate to learn new technologies and improve my skills in different areas of IT. I am particularly interested in data analytics, and I am continuously learning and exploring more about this field.</p>
+        </section>
+
+        <section id="skills">
+            <h2>My Technical Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>Power Apps</li>
+                <li>Power Automate</li>
+                <li>Microsoft Excel</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Educational Background</h2>
+            <table>
+                <tr><th>Category</th><th>Details</th></tr>
+                <tr><td>School</td><td>National University - Fairview</td></tr>
+                <tr><td>Program</td><td>Bachelor of Science in Information Technology</td></tr>
+                <tr><td>Year Level</td><td>2nd Year</td></tr>
+            </table>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+                <h3>Project 1: NU Reserve </h3>
+                <p>NU Reserve is a facility reservation system. It aims to make the process of reserving facilities easier through online requests and administrator approval.</p>
+            </article>
+            <article>
+                <h3>Project 2: Movie Playlist </h3>
+                <p>Movie Playlist is a project that allows users to organize and add movies to their playlists. It provides a simple way to navigate and manage their personal movie collections.</p>
+            </article>
+        </section>
+
+        <section id="goals">
+            <h2>My Career Goals</h2>
+            <ol>
+                <li>Learn more about data analytics and other emerging technologies.</li>
+                <li>Obtain relevant certifications.</li>
+                <li>Become a skilled IT professional in the future.</li>
+            </ol>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email:
+                <a href="mailto:wle.bnyg@gmail.com">Contact via Email</a>
+            </p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="button">Send Message</button>
+            </form>
+
+            <p>Note: This form is a visual prototype only.</p>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Wylle Bunayog. All rights reserved.</p>
+        <p>Thank you for visiting my portfolio!</p>
+    </footer>
+
+</body>
+</html>
